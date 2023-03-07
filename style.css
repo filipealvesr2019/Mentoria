@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-image: url('./assets/images/fundo.png');
+    background-size: cover;
+    height: 500px;
+}
+
+header img{
+    height: 50px;
+}
+
+.logo{
+    border: 1px solid white;
+    padding-left: 35px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+header h1{
+    /* Hero */
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 128.5%;
+        /* or 51px */
+    
+    
+        color: #FFFFFF;
+        margin-left: 10%;
+        margin-top: 7%;
+}
+
+header h2{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        /* or 30px */
+    
+    
+        color: #FFFFFF;
+        margin-left: 10%;
+}
+
+.div2{
+    background: #EAECE5;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.div2 p{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #122235;
+        margin-right: 8%;
+}
+
+.icones{
+    margin-left: 6%;
+}
+
+
+.div3{
+    background-color: #FFFFFF;;
+    height: 350px;
+}
+
+.div3{
+    float: right;
+        margin: 0;
+        padding: 20px;
+        margin-right: 60px;
+}
+
+#video{
+    height: 100px;
+    margin-left: 100%;
+    margin-bottom: 80px;
+    float: left;
+        margin: 0;
+        padding: 20px;
+        height: 300px;
+        width: 500px;
+        margin-left: 60px;
+}
+
+.div3 h1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 150%;
+        /* or 48px */
+    
+    
+        /* Azul */
+    
+        color: #247BA0;
+        margin-top: 50px;
+        margin-left: 80px;
+}
+
+.div3 h2{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        /* or 24px */
+    
+    
+        color: #383838;
+}
+
+.div4{
+    background-color: #247BA0;
+    height: 300px;
+}
+
+.div4 img {
+    height: 700px;
+    width: 700px;
+}
+#p1{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 0;
+       padding: 10px;
+       margin-top: 5px;
+       margin-right: 350px;
+}
+
+
+#p2{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 0;
+        padding: 10px;
+        margin-top: 5px;
+        margin-left: 350px;
+}
+
+.div4 h1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+    
+        text-align: center;
+    
+        /* Cinza claro */
+    
+        color: #EAECE5;
+        margin-bottom: -5%;
+        margin-top: 60px;
+}
+
+.div5{
+    background-color: #EAECE5;
+    height: 200px;
+}
+
+.div5 h1{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        /* identical to box height, or 48px */
+    
+    
+        color: #383838;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+}
+
+.div5 h2{
+    background-image: url("./assets/images/butao.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-left: 38%;
+    margin-top: 40px;
+}
+
+#text{
+    font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #FFFFFF;
+        height: 40px;
+        width: 300px;
+        border-radius: 8px;
+}
