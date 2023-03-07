@@ -10,7 +10,7 @@ body{
 header{
     background-image: url('./assets/images/fundo.png');
     background-size: cover;
-    height: 500px;
+    height: 450px;
 }
 
 header img{
@@ -18,9 +18,9 @@ header img{
 }
 
 .logo{
-    border: 1px solid white;
     padding-left: 35px;
     padding-top: 5px;
+    margin-top: 30px;
     margin-bottom: 10px;
 
 }
@@ -31,14 +31,14 @@ header h1{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 128.5%;
         /* or 51px */
     
     
         color: #FFFFFF;
         margin-left: 10%;
-        margin-top: 7%;
+        margin-top: 5%;
 }
 
 header h2{
@@ -52,6 +52,7 @@ header h2{
     
         color: #FFFFFF;
         margin-left: 10%;
+        margin-top: 28px;
 }
 
 .div2{
@@ -65,7 +66,7 @@ header h2{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 150%;
         /* identical to box height, or 30px */
     
@@ -77,39 +78,26 @@ header h2{
 }
 
 .icones{
-    margin-left: 6%;
+    margin-left: 10%;
+    width: 25px;
 }
 
 
 .div3{
     background-color: #FFFFFF;;
-    height: 350px;
+    height: 380px;
+    
 }
 
-.div3{
-    float: right;
-        margin: 0;
-        padding: 20px;
-        margin-right: 60px;
+.div3 h1, h2{
+    margin-left: 50px;
+    margin-top: 80px;
 }
-
-#video{
-    height: 100px;
-    margin-left: 100%;
-    margin-bottom: 80px;
-    float: left;
-        margin: 0;
-        padding: 20px;
-        height: 300px;
-        width: 500px;
-        margin-left: 60px;
-}
-
 .div3 h1{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 150%;
         /* or 48px */
     
@@ -117,20 +105,28 @@ header h2{
         /* Azul */
     
         color: #247BA0;
-        margin-top: 50px;
-        margin-left: 80px;
+        
 }
 
 .div3 h2{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 150%;
         /* or 24px */
     
     
         color: #383838;
+        margin-top: 15px;
+}
+
+#video{
+    height: 250px;
+    width: 500px;
+    float: left;
+    margin: 60px;
+    margin-left: 330px;
 }
 
 .div4{
@@ -143,7 +139,7 @@ header h2{
     width: 700px;
 }
 #p1{
-    height: 300px;
+    height: 400px;
     width: 300px;
     float: right;
     margin: 0;
@@ -154,7 +150,7 @@ header h2{
 
 
 #p2{
-    height: 300px;
+    height: 400px;
     width: 300px;
     float: left;
     margin: 0;
@@ -167,7 +163,7 @@ header h2{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 150%;
         /* identical to box height, or 48px */
     
@@ -176,7 +172,7 @@ header h2{
         /* Cinza claro */
     
         color: #EAECE5;
-        margin-bottom: -5%;
+        margin-bottom: -8%;
         margin-top: 60px;
 }
 
@@ -206,15 +202,15 @@ header h2{
     display: flex;
     justify-content: center;
     width: 100px;
-    margin-left: 38%;
-    margin-top: 40px;
+    margin-left: 42%;
+    margin-top: 30px;
 }
 
 #text{
     font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
-        font-size: 1px;
+        font-size: 10px;
         line-height: 150%;
         /* identical to box height, or 24px */
     
@@ -224,6 +220,6 @@ header h2{
     
         color: #FFFFFF;
         height: 40px;
-        width: 300px;
+        width: 250px;
         border-radius: 8px;
 }
