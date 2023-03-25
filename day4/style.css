@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    width: 1400px;
+        height: 107px;
+        left: -9px;
+        top: 0px;
+    
+        background: #76BEBE;
+        display: grid;
+        grid-auto-flow: column;
+        font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 38px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        
+            color: #F5F5F5;
+        
+}
+
+
+
+
+
+.texto{
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    margin-right: 12rem;
+}
+h2{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 75px;
+        text-align: center;
+    
+        color: #CF509C;
+        margin-top: 2rem;
+}
+
+
+h3{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 42px;
+        text-align: center;
+        color: #000000;
+        margin-top: -1rem;
+        margin-bottom: 8rem;
+}
+
+#meioDaPagina{
+    width: 1400px;
+        height: 174px;
+        left: -12px;
+        top: 107px;
+    
+        background: #FFFFFF;
+        display: grid;
+        grid-auto-flow: column;
+}
+#meioDaPagina img{
+    margin-top: 1rem;
+    margin-left: 18rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#fundoDaPagina{
+    width: 1400px;
+    background: rgba(204, 159, 193, 0.26);
+    display: grid;
+    grid-auto-flow: column;
+    height: 600px;
+    
+
+        
+}
+
+#cadastro form {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+
+input{
+       width: 500px;
+        height: 38px;
+        left: 104px;
+
+    
+        background: rgba(255, 255, 255, 0.57);
+        border-radius: 10px;
+        margin-left: 4rem;
+}
+
+label{
+    font-family: 'Alegreya Sans SC';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 5px;
+    
+        color: #000000;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 4rem;
+}
+button{
+    height: 50px;
+    width: 250px;
+    background: #76BEBE;
+    border-radius: 10px;
+
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 46px;
+        text-align: center;
+    
+        color: #FFFFFF;
+        margin-left: 12rem;
+        margin-top: 3rem;
+       
+        
+
+        
+
+}
+
+
+
+th{
+    background: #3E3D3D;
+    border: 3px solid #767373;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #FFFFFF;
+    width: 5rem;
+    height: 1rem;
+}
+
+
+td{
+    background: rgba(62, 61, 61, 0.75);
+        border: 1px solid #767373;
+}
