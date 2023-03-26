@@ -5,7 +5,7 @@ function addMed(){
     event.preventDefault();
     let newMed = {
         "medicamento": document.getElementById("med").value,
-        "quantidade": document.getElementsByTagName("quant").value,
+        "quantidade": document.getElementById("quant").value,
         "tipo": document.getElementById("tipomed").value,
     }
     resetForm();
@@ -20,7 +20,7 @@ function removeMed(index){
 }
 
 function renderTable(){
-    let table = document.getElementById('tabela');
+    let table = document.getElementById("tabela");
     table.innerHTML = `<th>ID</th>
                     <th>Medicamento</th>
                     <th>Quantidade</th>
@@ -37,8 +37,7 @@ function renderTable(){
         <td>${meds[i].medicamento}/td>
         <td>${meds[i].quantidade}</td>
         <td>${meds[i].tipo}</td>
-        <td><img src="trash-can-solid.svg" width="25px" height="25px" onclick="removeMed(${i})"></td>
-        </tr>
+        <td><img id="remover" src="trash.png" width="25px" height="25px"  onclick="removeMed(${i})"></td></tr>
         `
     }
 }
