@@ -14,38 +14,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <section id="top-section">
+
+
         <h1>Home</h1>
-        <h1>Cadastro
-        de Medicamentos</h1>
-        <h1>Cadastro
-        de Vacinas</h1>
-        <h1>Cadastro
-        de Cosméticos</h1>
-    </header>
+        <h1>Cadastro de Medicamentos</h1>
+        <h1>Cadastro de Vacinas</h1>
+        <h1>Cadastro de Cosméticos</h1>
+        
+    </section>
 
 
-    <section id="meioDaPagina">
+    <header id="meioDaPagina">
         <img src="icon/advice.png"  width="150px" alt="logo">
         <div class="texto">
             <h2>Cadastro de Medicamentos</h2>
             <h3>Farmácia da Gente</h3>
         </div>
         
-    </section>
+    </header>
 
 
     <section id="fundoDaPagina">
         <div id="cadastro">
-            <form >
+            <form onsubmit="addmed()">
                 <label for="medicamento">Nome do Medicamento</label>
-                <input type="text" name="medicamento">
+                <input type="text" required id="med" name="medicamento">
                 
-                <label type="text" for="quantidade">Quantidade Disponível</label>
-                <input type="text" name="quantidade">
+                <label for="quantidade">Quantidade Disponível</label>
+                <input type="text" required id="quant" name="quantidade">
                 
-                <label type="text" for="tipo">Classe de Medicamento</label>
-                <input type="text" name="tipo">
+                <label for="tipo">Classe de Medicamento</label>
+                <input style="margin-bottom: 2rem;" autocomplete="off"  type="text" required id="tipomed" name="tipo">
                 <button>Cadastrar</button>
             </form>
             
