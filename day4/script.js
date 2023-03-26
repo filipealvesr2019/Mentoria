@@ -34,7 +34,7 @@ function renderTable(){
 
 
         <td>${i}</td>
-        <td>${meds[i].medicamento}/td>
+        <td>${meds[i].medicamento}</td>
         <td>${meds[i].quantidade}</td>
         <td>${meds[i].tipo}</td>
         <td><img id="remover" src="trash.png" width="25px" height="25px"  onclick="removeMed(${i})"></td></tr>
