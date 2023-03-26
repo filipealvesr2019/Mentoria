@@ -163,7 +163,7 @@ label{
     font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 400;
-        font-size: 21px;
+        font-size: 22px;
         line-height: 5px;
     
         color: #000000;
@@ -230,5 +230,5 @@ td {
 
 
 #tabela{
-    margin-top: 5rem;
+    margin-top: 5.5rem;
 }
