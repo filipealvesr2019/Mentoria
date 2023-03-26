@@ -3,11 +3,10 @@ var meds = [];
 
 function addMed(){
     event.preventDefault();
-
     let newMed = {
-        "medicamento": document.getElementById('med').value,
-        "quantidade": document.getElementsByTagName('quant').value,
-        "tipo": document.getElementById('tipomed'),
+        "medicamento": document.getElementById("med").value,
+        "quantidade": document.getElementsByTagName("quant").value,
+        "tipo": document.getElementById("tipomed").value,
     }
     resetForm();
     meds.push(newMed);
